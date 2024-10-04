@@ -1,1 +1,1 @@
-<!-- # image-finder -->
+# image-finder
