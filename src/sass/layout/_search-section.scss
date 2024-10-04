@@ -14,8 +14,6 @@
     width: 23px;
 
     transition: transform var(--time-animation-function);
-
-    fill: tomato;
   }
 }
 
@@ -98,8 +96,7 @@
   &__btn-icon {
     transition: transform var(--time-animation-function);
 
-    // fill: var(--primary-bg-color);
-    fill: tomato;
+    fill: var(--primary-bg-color);
     width: 20px;
     height: 20px;
   }
