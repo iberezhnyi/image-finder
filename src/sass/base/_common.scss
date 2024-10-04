@@ -31,6 +31,12 @@ body {
   }
 }
 
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -48,4 +54,8 @@ body {
   @media screen and (min-width: 1200px) {
     width: 1200px;
   }
+}
+
+main {
+  flex-grow: 1;
 }
